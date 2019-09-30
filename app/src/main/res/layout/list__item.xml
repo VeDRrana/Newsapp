@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_small">
+
+    <TextView
+        android:id="@+id/category_text_view"
+        style="@style/TextSmall"
+        android:layout_width="@dimen/margin_extra_large"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout="@dimen/margin_small"
+        android:maxLines="3"
+        tools:text="Culture" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date_text_view"
+            style="@style/TextSmall"
+            android:ellipsize="end"
+            tools:text="2018-04-22\t\t9:30:18" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="@style/TextMedium"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="Corita Kent, the pop art nun" />
+
+        <TextView
+            android:id="@+id/author_text_view"
+            style="@style/TextSmall"
+            android:ellipsize="end"
+            tools:text="Joanna Moorhead" />
+    </LinearLayout>
+
+</LinearLayout>

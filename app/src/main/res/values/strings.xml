@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Art News App</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <!-- strings for MainActivity java file -->
+    <string name="no_connection">App cannot open the page because your phone is not connected to the Internet.</string>
+    <string name="no_art_news">Currently there are no stories for you. \nPlease come back later and try again.</string>
+    <!-- strings for QueryUtils java file -->
+    <string name="problem_parsing_JSON">Problem parsing the JSON results.</string>
+    <string name="problem_retrieving_JSON">Problem retrieving the JSON results.</string>
+    <string name="error_response">Error response code: </string>
+    <string name="problem_building_URL">Problem building the URL</string>
+    <string name="problem_HTTP_request">Problem making the HTTP request.</string>
+    <!-- Strings for showing minimum arte news  -->
+    <string name="settings_min_art_news">Show minimum news</string>
+    <string name="settings_min_art_news_key" translatable="false">min_art_news</string>
+    <string name="settings_min_art_news_default" translatable="false">5</string>
+    <!-- Strings for Order-By preference  -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+    <!-- Label for order-by news option  -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+</resources>

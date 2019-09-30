@@ -1,0 +1,11 @@
+<!--Background shape for the mark movie value -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/color1" />
+    <size
+        android:width="@dimen/margin_extra_large"
+        android:height="@dimen/margin_large" />
+    <stroke
+        android:width="@dimen/minimum"
+        android:color="@color/colorPrimaryDark" />
+</shape>
